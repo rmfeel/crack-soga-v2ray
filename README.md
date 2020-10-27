@@ -1,5 +1,5 @@
 # crack-soga-v2ray
- A crack version of soga v2ray backend
+ A cracked version of soga v2ray backend
 
 > 破解版可能存在各种未知的风险，请自行判断后使用，本人不对使用本软件产生的各种后果负责。
 
