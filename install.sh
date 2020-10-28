@@ -97,14 +97,14 @@ install_soga() {
             exit 1
         fi
         echo -e "检测到 soga 最新版本：${last_version}，开始安装"
-        wget -N --no-check-certificate -O /usr/local/soga.tar.gz https://github.com/RManLuo/crack-soga-v2ray/releases/download/${last_version}/soga-linux64.tar.gz
+        wget -N --no-check-certificate -O /usr/local/soga.tar.gz https://github.com/RManLuo/crack-soga-v2ray/releases/download/${last_version}/soga-cracked-linux64.tar.gz
         if [[ $? -ne 0 ]]; then
             echo -e "${red}下载 soga 失败，请确保你的服务器能够下载 Github 的文件${plain}"
             exit 1
         fi
     else
         last_version=$1
-        url="https://github.com/RManLuo/crack-soga-v2ray/releases/download/${last_version}/soga-linux64.tar.gz"
+        url="https://github.com/RManLuo/crack-soga-v2ray/releases/download/${last_version}/soga-cracked-linux64.tar.gz"
         echo -e "开始安装 soga v$1"
         wget -N --no-check-certificate -O /usr/local/soga.tar.gz ${url}
         if [[ $? -ne 0 ]]; then
