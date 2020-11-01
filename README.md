@@ -27,4 +27,14 @@ sudo bash < <(curl -Ls https://raw.githubusercontent.com/RManLuo/crack-soga-v2ra
 
 ## Docker安装
 
-TODO
+```
+docker run --restart=always --name crack-soga -d -v /etc/soga/:/etc/soga/ --network host rmanluo/crack-soga \
+--type=sspanel-uim \
+--server_type=v2ray \
+--api=webapi \
+--webapi_url=https://xxx.com/ \
+--webapi_mukey=xxx \
+--soga_key=cracked_by_RMan \
+--node_id=1
+```
+
