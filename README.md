@@ -28,6 +28,7 @@ sudo bash < <(curl -Ls https://raw.githubusercontent.com/RManLuo/crack-soga-v2ra
 ## Docker安装
 
 ```
+docker pull rmanluo/crack-soga
 docker run --restart=always --name crack-soga -d -v /etc/soga/:/etc/soga/ --network host rmanluo/crack-soga \
 --type=sspanel-uim \
 --server_type=v2ray \
